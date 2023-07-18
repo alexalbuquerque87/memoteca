@@ -12,13 +12,17 @@ export class PensamentoService {
 
   constructor(private http: HttpClient) { }
 
-  listar(pagina: number): Observable<Pensamento[]> {
+  listar(pagina: number, filtro: string): Observable<Pensamento[]> {
     //GET /posts?_page=7&_limit=20 --json server pagination
     const itensPorPagina = 6;
 
     let params = new HttpParams()
       .set("_page", pagina)
       .set("_limit", itensPorPagina);
+
+    if (filtro.trim().length > 2) {
+      params = params.set("q", filtro); //q is a json server param for full-text search
+    }
 
     //return this.http.get<Pensamento[]>(`${this.API}?_page=${pagina}&_limit=${itensPorPagina}`) -- this works but not recommended
     //return this.http.get<Pensamento[]>(this.API, { params: params }) -- can be replaced by params only because key name = param name
