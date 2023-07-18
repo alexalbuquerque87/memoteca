@@ -17,6 +17,30 @@
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Hoje é sábado",
+      "autoria": "amém",
+      "modelo": "modelo1",
+      "id": 4
+    },
+    {
+      "conteudo": "Mais um pensamento",
+      "autoria": "borabill",
+      "modelo": "modelo1",
+      "id": 5
+    },
+    {
+      "conteudo": "Pensamento 6",
+      "autoria": "seis",
+      "modelo": "modelo1",
+      "id": 6
+    },
+    {
+      "conteudo": "Pensamento 7",
+      "autoria": "sete",
+      "modelo": "modelo1",
+      "id": 7
     }
   ]
 }
