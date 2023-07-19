@@ -4,84 +4,98 @@
       "id": 1,
       "conteudo": "Primeiro posta",
       "autoria": "teste min",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "Estudando Angular",
       "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "Hoje é sábado",
       "autoria": "amém",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 4
     },
     {
       "conteudo": "Mais um pensamento",
       "autoria": "borabill",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 5
     },
     {
       "conteudo": "Pensamento 6",
       "autoria": "seis",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 6
     },
     {
       "conteudo": "Pensamento 7",
       "autoria": "sete",
       "modelo": "modelo1",
+      "favorito": true,
       "id": 7
     },
     {
       "conteudo": "pesquisa 1",
       "autoria": "pesquisa 1",
       "modelo": "modelo1",
+      "favorito": true,
       "id": 8
     },
     {
       "conteudo": "pesquisa 2",
       "autoria": "pesquisa 2",
       "modelo": "modelo2",
+      "favorito": true,
       "id": 9
     },
     {
       "id": 10,
       "conteudo": "pesquisa 3",
       "autoria": "pesquisa 3",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true
     },
     {
       "conteudo": "pesquisa 4",
       "autoria": "pesquisa 4",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 11
     },
     {
       "conteudo": "pesquisa 5",
       "autoria": "pesquisa 5",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 12
     },
     {
       "conteudo": "pesquisa 6",
       "autoria": "pesquisa 6",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 13
     },
     {
       "conteudo": "pesquisa 7",
       "autoria": "pesquisa 7",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 14
     }
   ]
